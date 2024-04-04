@@ -5,6 +5,6 @@
     <dimen name="textSizeSmall">10sp</dimen>
     <dimen name="marginLarge">30dp</dimen>
     <dimen name="marginMedium">20dp</dimen>
-    <dimen name="marginSmall">10dp</dimen>
+    <dimen name="marginSmall">10dp</dimen>w
     <dimen name="editWidth">50dp</dimen>
 </resources>

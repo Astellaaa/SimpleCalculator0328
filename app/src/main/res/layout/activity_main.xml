@@ -14,6 +14,7 @@
         android:layout_height="wrap_content"
         android:hint="@string/editHint"
         android:layout_marginBottom="@dimen/marginLarge"
+        android:inputType="numberDecimal"
         android:textSize="@dimen/textSizeMedium"/>
     <EditText
         android:id="@+id/edit2"
@@ -21,6 +22,7 @@
         android:layout_height="wrap_content"
         android:hint="@string/editHint"
         android:layout_marginBottom="@dimen/marginLarge"
+        android:inputType="numberDecimal"
         android:textSize="@dimen/textSizeMedium"/>
     <Button
         android:id="@+id/btnPlus"

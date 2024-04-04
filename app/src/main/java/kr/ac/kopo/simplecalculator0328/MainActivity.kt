@@ -14,7 +14,7 @@ class MainActivity : AppCompatActivity() {
     lateinit var btnMultuply:Button
     lateinit var btnDivide:Button
     lateinit var textResult:TextView
-    var result : Int? = null
+    var result : Double? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -30,8 +30,8 @@ class MainActivity : AppCompatActivity() {
         textResult = findViewById<TextView>(R.id.textResult)
 
         btnPlus.setOnClickListener{
-            val num1 = edit1.text.toString().toInt()
-            val num2 = edit2.text.toString().toInt()
+            val num1 = edit1.text.toString().toDouble()
+            val num2 = edit2.text.toString().toDouble()
             result = num1 + num2
             textResult.text = "계산 결과 : " + result
         }
